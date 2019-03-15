@@ -12,14 +12,10 @@
 		6D811B6FB07EA986A82C0E20D575B830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		74927405325A38C4F128E9EF681C658D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7ACE87F826627C39F01B062F0CB3F3F5 /* Pods-WRGMvvmFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532561B5B0BE8F04D64C5B9F153AA025 /* Pods-WRGMvvmFramework_Example-dummy.m */; };
-		9C147735D358CC4B944CD9DAAEF7A8BE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F929E8AFE9C8FE636F18FC1A0EF0E63 /* ReplaceMe.swift */; };
 		A1E59C36867C4AA4E1E3E72BFEDE2CF3 /* Pods-WRGMvvmFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DD9684266D27443422F632E9F1D546 /* Pods-WRGMvvmFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3981364C70D39BE66BCCDE9F10542F0 /* Pods-WRGMvvmFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB56979C94AFE790562930DA8B392E96 /* Pods-WRGMvvmFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB2678D8BB397D93E772A29BEA0F54DD /* WRGMvvmFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC95C340FF7F95A96D49AC5F9663158 /* WRGMvvmFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9177084CAE5C3D8906848DD5ADE03AB /* Pods-WRGMvvmFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8BA25482ACAB93BF3644101539A6F /* Pods-WRGMvvmFramework_Tests-dummy.m */; };
-		EA773086223BE4B70028C7C8 /* WRGMvvmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA773083223BE4B70028C7C8 /* WRGMvvmViewController.swift */; };
-		EA773087223BE4B70028C7C8 /* WRGViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA773084223BE4B70028C7C8 /* WRGViewModel.swift */; };
-		EA773088223BE4B70028C7C8 /* WRGViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA773085223BE4B70028C7C8 /* WRGViewModelDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +39,6 @@
 		07E8BA25482ACAB93BF3644101539A6F /* Pods-WRGMvvmFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRGMvvmFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		1B996FFF68075E348AF44679A482F8F4 /* Pods_WRGMvvmFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGMvvmFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E35CD01542BC1321B32ADE5614D62DC /* WRGMvvmFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRGMvvmFramework.xcconfig; sourceTree = "<group>"; };
-		1F929E8AFE9C8FE636F18FC1A0EF0E63 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WRGMvvmFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		31ACA404938415DD87A90FD6D97087E7 /* Pods-WRGMvvmFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRGMvvmFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		336C3DF3B9D9B6C8FE67B564E1E412DF /* Pods-WRGMvvmFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRGMvvmFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		4F817822EA700CEA10BF33D883C60D4F /* WRGMvvmFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WRGMvvmFramework-Info.plist"; sourceTree = "<group>"; };
@@ -66,9 +61,6 @@
 		D534589F78F2B2FEA21CB8F2ABA88C9F /* Pods-WRGMvvmFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRGMvvmFramework_Example-Info.plist"; sourceTree = "<group>"; };
 		D6351E9A520B1830E104BD643BC6A992 /* Pods-WRGMvvmFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGMvvmFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E59E73C79B4E44F64389710698EA4441 /* Pods-WRGMvvmFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRGMvvmFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA773083223BE4B70028C7C8 /* WRGMvvmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRGMvvmViewController.swift; sourceTree = "<group>"; };
-		EA773084223BE4B70028C7C8 /* WRGViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRGViewModel.swift; sourceTree = "<group>"; };
-		EA773085223BE4B70028C7C8 /* WRGViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRGViewModelDelegate.swift; sourceTree = "<group>"; };
 		EB56979C94AFE790562930DA8B392E96 /* Pods-WRGMvvmFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRGMvvmFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		EDC9CD32E471FA85CC51ADCA0CE43053 /* Pods-WRGMvvmFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRGMvvmFramework_Example.modulemap"; sourceTree = "<group>"; };
 		EE9F0785D62A2096014E228EBE3CE6D2 /* Pods-WRGMvvmFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGMvvmFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,8 +123,6 @@
 		56F7B0B57673198381615886D100286F /* WRGMvvmFramework */ = {
 			isa = PBXGroup;
 			children = (
-				EA773082223BE4540028C7C8 /* Classes */,
-				1F929E8AFE9C8FE636F18FC1A0EF0E63 /* ReplaceMe.swift */,
 				D4C1154EBAF7DA84E7B7546E528C22ED /* Pod */,
 				50DCCCD7256E882143AF85744C2DADBB /* Support Files */,
 			);
@@ -226,16 +216,6 @@
 				CE3E9676DC9F50F150C3E7B385F5604B /* WRGMvvmFramework.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		EA773082223BE4540028C7C8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EA773083223BE4B70028C7C8 /* WRGMvvmViewController.swift */,
-				EA773084223BE4B70028C7C8 /* WRGViewModel.swift */,
-				EA773085223BE4B70028C7C8 /* WRGViewModelDelegate.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,11 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA773088223BE4B70028C7C8 /* WRGViewModelDelegate.swift in Sources */,
-				9C147735D358CC4B944CD9DAAEF7A8BE /* ReplaceMe.swift in Sources */,
-				EA773087223BE4B70028C7C8 /* WRGViewModel.swift in Sources */,
 				2C98F13797CE3466D27622B543397178 /* WRGMvvmFramework-dummy.m in Sources */,
-				EA773086223BE4B70028C7C8 /* WRGMvvmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
