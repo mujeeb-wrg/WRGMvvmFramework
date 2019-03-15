@@ -1,0 +1,6 @@
+framework module WRGMvvmFramework {
+  umbrella header "WRGMvvmFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

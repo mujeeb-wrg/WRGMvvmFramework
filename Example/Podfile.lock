@@ -1,0 +1,16 @@
+PODS:
+  - WRGMvvmFramework (0.1.0)
+
+DEPENDENCIES:
+  - WRGMvvmFramework (from `../`)
+
+EXTERNAL SOURCES:
+  WRGMvvmFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WRGMvvmFramework: 7f341a09e0a00c07f130349d4ffab19b6c8de76f
+
+PODFILE CHECKSUM: 89eddad1889b4430b6d9e61b52f8e40c9fb2360a
+
+COCOAPODS: 1.6.1
