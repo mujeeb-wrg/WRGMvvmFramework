@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WRGMvvmFramework_Example' do
+  pod 'WRGMvvmFramework', :path => '../'
+
+  target 'WRGMvvmFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
