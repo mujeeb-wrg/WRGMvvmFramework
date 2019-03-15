@@ -17,6 +17,9 @@
 		A3981364C70D39BE66BCCDE9F10542F0 /* Pods-WRGMvvmFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB56979C94AFE790562930DA8B392E96 /* Pods-WRGMvvmFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB2678D8BB397D93E772A29BEA0F54DD /* WRGMvvmFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC95C340FF7F95A96D49AC5F9663158 /* WRGMvvmFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9177084CAE5C3D8906848DD5ADE03AB /* Pods-WRGMvvmFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8BA25482ACAB93BF3644101539A6F /* Pods-WRGMvvmFramework_Tests-dummy.m */; };
+		EA773086223BE4B70028C7C8 /* WRGMvvmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA773083223BE4B70028C7C8 /* WRGMvvmViewController.swift */; };
+		EA773087223BE4B70028C7C8 /* WRGViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA773084223BE4B70028C7C8 /* WRGViewModel.swift */; };
+		EA773088223BE4B70028C7C8 /* WRGViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA773085223BE4B70028C7C8 /* WRGViewModelDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		07E8BA25482ACAB93BF3644101539A6F /* Pods-WRGMvvmFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRGMvvmFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		1B996FFF68075E348AF44679A482F8F4 /* Pods_WRGMvvmFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WRGMvvmFramework_Tests.framework; path = "Pods-WRGMvvmFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B996FFF68075E348AF44679A482F8F4 /* Pods_WRGMvvmFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGMvvmFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E35CD01542BC1321B32ADE5614D62DC /* WRGMvvmFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRGMvvmFramework.xcconfig; sourceTree = "<group>"; };
 		1F929E8AFE9C8FE636F18FC1A0EF0E63 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WRGMvvmFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		31ACA404938415DD87A90FD6D97087E7 /* Pods-WRGMvvmFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRGMvvmFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -46,28 +49,31 @@
 		4F817822EA700CEA10BF33D883C60D4F /* WRGMvvmFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WRGMvvmFramework-Info.plist"; sourceTree = "<group>"; };
 		507F88F222F01BE67F3EFEF7CFC31AF1 /* Pods-WRGMvvmFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRGMvvmFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		532561B5B0BE8F04D64C5B9F153AA025 /* Pods-WRGMvvmFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRGMvvmFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		5386070974681BC1E55D3B6C08B1145C /* Pods_WRGMvvmFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WRGMvvmFramework_Example.framework; path = "Pods-WRGMvvmFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5386070974681BC1E55D3B6C08B1145C /* Pods_WRGMvvmFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGMvvmFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C211FB341A29A3C706C0900BD5223A3 /* Pods-WRGMvvmFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRGMvvmFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		68FD989C7B59B48CE2A54C22238CDDE6 /* WRGMvvmFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WRGMvvmFramework.modulemap; sourceTree = "<group>"; };
 		74741F2E003CE68C9AACB14539D97807 /* Pods-WRGMvvmFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRGMvvmFramework_Tests-Info.plist"; sourceTree = "<group>"; };
-		7AABA55B952F7D93DF0C1C2DCDFC7FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7AABA55B952F7D93DF0C1C2DCDFC7FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8EAF47D57E18A1BC30BAC498618D7D2D /* Pods-WRGMvvmFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGMvvmFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCC95C340FF7F95A96D49AC5F9663158 /* WRGMvvmFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRGMvvmFramework-umbrella.h"; sourceTree = "<group>"; };
 		C014ED07C44AA237C392964581585B92 /* Pods-WRGMvvmFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRGMvvmFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB3886258ACA2038A4D766C16D495EB4 /* WRGMvvmFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRGMvvmFramework-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD68CCC8DE0ED3C632514EB2BB09D09B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CE3E9676DC9F50F150C3E7B385F5604B /* WRGMvvmFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WRGMvvmFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD68CCC8DE0ED3C632514EB2BB09D09B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE3E9676DC9F50F150C3E7B385F5604B /* WRGMvvmFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WRGMvvmFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D1DD9684266D27443422F632E9F1D546 /* Pods-WRGMvvmFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRGMvvmFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D534589F78F2B2FEA21CB8F2ABA88C9F /* Pods-WRGMvvmFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRGMvvmFramework_Example-Info.plist"; sourceTree = "<group>"; };
 		D6351E9A520B1830E104BD643BC6A992 /* Pods-WRGMvvmFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGMvvmFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E59E73C79B4E44F64389710698EA4441 /* Pods-WRGMvvmFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRGMvvmFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EA773083223BE4B70028C7C8 /* WRGMvvmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRGMvvmViewController.swift; sourceTree = "<group>"; };
+		EA773084223BE4B70028C7C8 /* WRGViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRGViewModel.swift; sourceTree = "<group>"; };
+		EA773085223BE4B70028C7C8 /* WRGViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRGViewModelDelegate.swift; sourceTree = "<group>"; };
 		EB56979C94AFE790562930DA8B392E96 /* Pods-WRGMvvmFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRGMvvmFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		EDC9CD32E471FA85CC51ADCA0CE43053 /* Pods-WRGMvvmFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRGMvvmFramework_Example.modulemap"; sourceTree = "<group>"; };
 		EE9F0785D62A2096014E228EBE3CE6D2 /* Pods-WRGMvvmFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGMvvmFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3632253D988701C94ACB971A03873C6 /* Pods-WRGMvvmFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGMvvmFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F6FD3B5E20CF836178F5C23B0B83B8FE /* WRGMvvmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WRGMvvmFramework.framework; path = WRGMvvmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FD3B5E20CF836178F5C23B0B83B8FE /* WRGMvvmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WRGMvvmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BDADD1B8C0519A890F84742DB41D27 /* WRGMvvmFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRGMvvmFramework-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +131,7 @@
 		56F7B0B57673198381615886D100286F /* WRGMvvmFramework */ = {
 			isa = PBXGroup;
 			children = (
+				EA773082223BE4540028C7C8 /* Classes */,
 				1F929E8AFE9C8FE636F18FC1A0EF0E63 /* ReplaceMe.swift */,
 				D4C1154EBAF7DA84E7B7546E528C22ED /* Pod */,
 				50DCCCD7256E882143AF85744C2DADBB /* Support Files */,
@@ -219,6 +226,16 @@
 				CE3E9676DC9F50F150C3E7B385F5604B /* WRGMvvmFramework.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		EA773082223BE4540028C7C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA773083223BE4B70028C7C8 /* WRGMvvmViewController.swift */,
+				EA773084223BE4B70028C7C8 /* WRGViewModel.swift */,
+				EA773085223BE4B70028C7C8 /* WRGViewModelDelegate.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,8 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA773088223BE4B70028C7C8 /* WRGViewModelDelegate.swift in Sources */,
 				9C147735D358CC4B944CD9DAAEF7A8BE /* ReplaceMe.swift in Sources */,
+				EA773087223BE4B70028C7C8 /* WRGViewModel.swift in Sources */,
 				2C98F13797CE3466D27622B543397178 /* WRGMvvmFramework-dummy.m in Sources */,
+				EA773086223BE4B70028C7C8 /* WRGMvvmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,8 +737,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
